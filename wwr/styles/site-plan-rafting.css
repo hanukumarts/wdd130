@@ -1,0 +1,60 @@
+@import url('https://fonts.google.com/specimen/Grape+Nuts?query=gra');
+@import url('https://fonts.google.com/specimen/Bungee+Spice?query=Bungee');
+
+:root {
+    --primary-color: #171A21;
+    --secondary-color: #617073;
+    --accent1-color: #7A93AC;
+    --accent2-color: #92BCEA;
+    --accent3-color: #AFB3F7;
+
+    --heading-font: 'Bungee Spice', serif;
+    --paragrah-font: 'Grape Nuts', serif;
+    
+    --nav-background-color: #171A21;
+    --nav-link-color: #617073;
+    --nav-hover-link-color: #7A93AC;
+    --nav-hover-background-color: #92BCEA;
+}
+
+body {
+    font-family: var(--paragrah-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color)
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
