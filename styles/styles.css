@@ -41,11 +41,12 @@ aside {
 aside img {
     width: 300px;
     height: auto;
+    float: none;
 }
 main img {
     width: 150px;
     height: auto;
-    float: none;
+    float: right;
 }
 p {padding: 0;}
 footer{
