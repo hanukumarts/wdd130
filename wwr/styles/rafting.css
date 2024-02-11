@@ -21,7 +21,8 @@
 }
 
 .sociallinks img {
-    size: 24px;
+    size: 0px;
+    list-style: none;
 }
 
 h1 {
