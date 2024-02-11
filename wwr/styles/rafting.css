@@ -1,4 +1,8 @@
-@import url('https://fonts.google.com/specimen/Roboto');
+@import url('https://fonts.google.com/specimen/Sofia?query=sofia');
+
+* {
+    font-size: "sofia", sans-serif;
+}
 
 :root {
     --primary-color: #171A21;
@@ -21,7 +25,7 @@
 }
 
 .sociallinks img {
-    size: 0px;
+    resize: 0px;
     list-style: none;
 }
 
