@@ -1,0 +1,58 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+:root {
+    --primary-color: #171A21;
+    --secondary-color: #617073;
+    --accent1-color: #7A93AC;
+    --accent2-color: #92BCEA;
+    --accent3-color: #AFB3F7;
+
+    --heading-font: 'Bungee Spice', serif;
+    --paragrah-font: 'Grape Nuts', serif;
+    
+    --nav-background-color: #171A21;
+    --nav-link-color: #617073;
+    --nav-hover-link-color: #7A93AC;
+    --nav-hover-background-color: #92BCEA;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+h1 {
+    color: blue;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    color: rgb(37, 6, 1)
+}
+
+h2 {
+    color: green;
+}
+p {
+    color: #171A21;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: rgb(37, 6, 1);
+    background-color: #AFB3F7;
+}
+
+article  img {
+    float: right;
+}
