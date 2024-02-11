@@ -39,6 +39,7 @@ p {
 
 .hero {
     position: relative;
+    top: auto;
 }
 
 .hero img {
