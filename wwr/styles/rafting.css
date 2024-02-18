@@ -1,23 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-body, h1, h2, p, ul, ol, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Muli', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 /* Header styles */
 header {
     background-color: #3498db;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -56,7 +81,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.5em;
-    color: #333; /* Ensure text is readable against background */
+    color: #f7f7f7; /* Ensure text is readable against background */
 }
 
 article {
@@ -104,8 +129,18 @@ footer {
 
 .social-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.social-links a:first-child {
+    margin-left: 0;
 }
 
 footer img {
