@@ -170,6 +170,7 @@ footer img {
     justify-content: flex-end;
     align-items: right;
     margin-top: 10px;
+    flex-wrap: nowrap;
 }
 
 footer a {
