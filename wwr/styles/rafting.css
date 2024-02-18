@@ -157,20 +157,18 @@ footer {
 .social-links a {
     text-decoration: none;
     color: white;
-    margin-left: 0 5px;
-    width: 30px;
 }
 
 .social-links a:first-child {
     margin-left: 0;
 }
 
-/* footer img {
-    
+footer img {
+    width: 30px;
     margin: 0 5px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
-} */
+}
