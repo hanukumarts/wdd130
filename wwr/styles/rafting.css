@@ -147,27 +147,32 @@ footer {
     padding: 10px 0;
 }
 
-/* Footer styles */
-footer {
-    background-color: #2ecc71;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
 .social-links {
-    text-align: right; /* Align icons to the right */
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
     margin-top: 10px;
 }
 
 .social-links a {
     text-decoration: none;
     color: white;
-    margin-left: 5px; /* Adjust spacing between icons */
 }
 
-.social-links img {
-    width: 30px; /* Set the width of the icons */
-    margin-right: 5px; /* Adjust spacing around each icon */
-    vertical-align: middle; /* Align icons vertically */
+.social-links a:first-child {
+    margin-left: 0;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
