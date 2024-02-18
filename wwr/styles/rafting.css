@@ -51,10 +51,20 @@ header {
     height: auto;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+}
+
+nav a:first-child {
+    margin-left: 0;
 }
 
 /* Main styles */
@@ -143,7 +153,7 @@ footer {
     margin-left: 0;
 }
 
-footer img {
+/*footer img {
     width: 30px;
     margin: 0 5px;
 }
@@ -151,4 +161,4 @@ footer img {
 footer a {
     text-decoration: none;
     color: white;
-}
+}*/
