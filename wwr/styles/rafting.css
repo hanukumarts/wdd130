@@ -151,6 +151,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: right;
+    flex-wrap: nowrap;
     margin-top: 10px;
 }
 
@@ -166,7 +167,6 @@ footer {
 footer img {
     width: 30px;
     margin: 0 5px;
-    flex-wrap: nowrap;
 }
 
 footer a {
