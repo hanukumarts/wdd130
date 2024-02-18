@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <meta name="description" content="...">
@@ -10,7 +11,9 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="rafting-site" width="200">
+        <div class="logo">
+            <img src="images/logo.png" alt="rafting-site" width="200">
+        </div>
         <nav>
             <a href="site-plan-rafting.html">Home</a>
             <a href="about.html">About Us</a>
@@ -20,30 +23,47 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/herobackground.jpg" alt="Adventure">
+            <img src="images/herobackground.jpg" alt="Adventure" width="200">
             <h1>Vizag Rafting Adventures</h1>
-            <article>
-                <h2>Happy Customer</h2>
-                <img src="images/happycustomer.jpg" alt="">
-                <p>Experience life-time memorable adventure</p>
-            </article>
-            <section>
-                <h2>History</h2>
-                <p>We helped hundreds of customers in making everlasting experiences.</p>
-            </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <img src="images/rishikesh.jpg" alt="Rishikesh">
-                <img src="images/brahmaputra.jpg" alt="Brahmaputra">
-                <img src="images/kullumanali.jpg" alt="Kullumanali">
-                <img src="images/lohitriver.jpg" alt="Lohitriver">
-                <img src="images/teestariver.jpg" alt="Teestariver">
-            </section>
-        </div>
+        </div>    
+        <article>
+            <h2>Happy Customer</h2>
+            <img src="images/happycustomer.jpg" alt="">
+            <p>Experience life-time memorable adventure</p>
+        </article>
+        <section>
+            <h2>History</h2>
+            <p>We helped hundreds of customers in making everlasting experiences.</p>
+        </section>
+        <section>
+            <h2>Adventure Awaits You!</h2>
+            <div class="adventure-images">
+                <figure>    
+                    <img src="images/rishikesh.jpg" alt="Rishikesh">
+                    <figcaption>Rishikesh Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/brahmaputra.jpg" alt="Brahmaputra">
+                    <figcaption>Brahmaputra Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/kullumanali.jpg" alt="Kullumanali">
+                    <figcaption>KulluManali Adventure</figcaption>
+                </figure>
+                <figure>    
+                    <img src="images/lohitriver.jpg" alt="Lohitriver">
+                    <figcaption>Lohitriver Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/teestariver.jpg" alt="Teestariver">
+                    <figcaption>Teestariver Adventure</figcaption>
+                </figure>
+            </div>    
+        </section>   
     </main>
     <footer>
         <p>&copy;2024 Vizag Rafting Adventures | Hanu Kumar TS</p>
-        <nav class="sociallinks">
+        <div class="sociallinks">
             <a href="https://www.facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
             </a>
@@ -53,7 +73,7 @@
             <a href="https://www.twitter.com">
                 <img src="images/twitter.png" alt="Twitter">
             </a>
-        </nav>
+        </div>
     </footer>
 </body>
 </html>
