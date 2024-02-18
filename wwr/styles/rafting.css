@@ -150,7 +150,7 @@ footer {
 .social-links {
     display: flex;
     justify-content: flex-end;
-    align-items: right;
+    align-items: end;
     flex-wrap: nowrap;
     margin-top: 10px;
 }
