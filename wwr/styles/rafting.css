@@ -409,9 +409,10 @@ nav ul li a {
 }
 
 #features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
 }
 
 .feature {
