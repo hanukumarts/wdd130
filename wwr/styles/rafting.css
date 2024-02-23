@@ -291,8 +291,10 @@ iframe {
 }
 
 .trip img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
     height: auto;
+    overflow: hidden;
     border-radius: 5px;
 }
 
