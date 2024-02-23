@@ -410,13 +410,15 @@ nav ul li a {
 
 #features {
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .feature {
-    text-align: center;
+    flex: 1;
+    max-width: 50%;
+    margin: 0 10px; 
 }
 
 .feature img {
