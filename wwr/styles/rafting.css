@@ -3,6 +3,7 @@
 body {
     font-family: 'Muli', sans-serif;
     line-height: 1.6;
+    font-size: 16px;
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
@@ -38,11 +39,21 @@ p {
     margin-bottom: 1em;
 }
 
-header, footer{
+header{
     background-color: #333;
     color: white;
-    padding: 10px 0;
+    padding: 10px 20px;
     text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .header-container {
@@ -327,4 +338,87 @@ th, td {
 
 th {
     background-color: #f5f5f5;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+#newsletter {
+    margin-bottom: 30px;
+}
+
+#newsletter form {
+    margin-top: 10px;
+}
+
+#newsletter label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#newsletter input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#newsletter button {
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#call-to-action {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
 }
